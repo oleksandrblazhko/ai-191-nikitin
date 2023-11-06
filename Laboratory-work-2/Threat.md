@@ -83,5 +83,4 @@
 |81	|Administrator-App-Service-Web-Request	|Elevation of Privileges	|An adversary may gain long term persistent access to related resources through the compromise of an application identity	|An adversary may gain long term persistent access to related resources through the compromise of an application identity|
 |82	|Administrator-App-Service-Web-Request	|Denial of Service	|An adversary may block access to the application or API hosted on Azure App Service Web App through a denial of service attack	|An adversary may block access to the application or API hosted on Azure App Service Web App through a denial of service attack|
 
-
-![](https://raw.githubusercontent.com/oleksandrblazhko/ai-191-nikitin/laboratory-work-2/Laboratory-work-2/Threat.htm)
+![](https://htmlpreview.github.io/?https://github.com/oleksandrblazhko/ai-191-nikitin/laboratory-work-2/Laboratory-work-2/Threat.htm)
