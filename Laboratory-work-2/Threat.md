@@ -1,3 +1,5 @@
+https://htmlpreview.github.io/?https://github.com/oleksandrblazhko/ai-191-nikitin/laboratory-work-2/Laboratory-work-2/Threat.htm
+
 |<p style="text-align: center;">№ загрози|<p style="text-align: center;">Назва зв’язку(елемент Interaction зекрану аналізу)|<p style="text-align: center;">STRIDE-клас загрози|<p style="text-align: center;">Назва загрози(елемент Titleз екрану аналізу)|<p style="text-align: center;">Опис загрози(елемент Descriptionз екрану аналізу)|
 |---|---|---|---|---|
 |1	|App-Service-Web-Vacancies-Sources-Response	|Spoofing	|An adversary may be able to perform action(s) on behalf of another user due to lack of controls against cross domain requests	|An adversary may be able to perform action(s) on behalf of another user due to lack of controls against cross domain requests|
@@ -82,5 +84,3 @@
 |80	|Administrator-App-Service-Web-Request	|Elevation of Privileges	|An adversary may gain unauthorized access to Azure App Service Web App due to weak network configuration	|An adversary may gain unauthorized access to Azure App Service Web App due to weak network configuration|
 |81	|Administrator-App-Service-Web-Request	|Elevation of Privileges	|An adversary may gain long term persistent access to related resources through the compromise of an application identity	|An adversary may gain long term persistent access to related resources through the compromise of an application identity|
 |82	|Administrator-App-Service-Web-Request	|Denial of Service	|An adversary may block access to the application or API hosted on Azure App Service Web App through a denial of service attack	|An adversary may block access to the application or API hosted on Azure App Service Web App through a denial of service attack|
-
-![](https://htmlpreview.github.io/?https://github.com/oleksandrblazhko/ai-191-nikitin/laboratory-work-2/Laboratory-work-2/Threat.htm)
