@@ -1,0 +1,44 @@
+@startuml
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Smartphone>>" as sp {
+    node "<<Operating System Android>>" {
+        component [*.apk]
+        node "<<Database SQLite>>" {
+            database "<<Relation Database>>" as db1
+        }
+    }
+}
+
+interface Touchscreen 
+
+Touchscreen -- sp
+
+node "<<Server>>" as serv {
+    node "<<Operating System Windows>>"{
+        node "<<Application Server Spring>>" {
+	    component [*.jar]
+	}
+        node "<<Database Server PostgreSQL>>" {
+            database "<<Relation Database>>" as db2
+        }
+        node "<<NLP Model>>" {
+            component [*.py]
+        }
+    }
+}
+
+sp -- serv
+
+node "<<Vacancies sources>>" as vac
+
+serv -- vac
+
+node "<<System administrator>>" as admin
+
+serv -- admin
+@enduml
