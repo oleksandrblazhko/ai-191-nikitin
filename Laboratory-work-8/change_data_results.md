@@ -2,4 +2,4 @@
 
 Приклад SQL-ін'єкції підкласу "Порушення цілісності вмісту таблиць БД":<br>
 ```SELECT * FROM change_data('Petrov'' OR 1 = 1 -- ',1);```<br>
-![Результат SQL-ін'єкції](/screenshots/1.4.3.2.png)
+![Результат SQL-ін'єкції](Laboratory-work-8/screenshots/1.4.3.2.png)
